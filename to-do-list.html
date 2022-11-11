@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+   <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <form id="form" autocomplete="off">
+    <div class="section">
+      <div class="container">
+        <div class="head"></div>
+        <h1 class="text">To-Do List</h1>
+        <div class="filter-div">
+          <img src="img/filter1.svg" alt="filter" id="filter" />
+        </div>  
+          <div class="all" id="form-div">
+            <div class="todo-div">
+              <input type="text" id="to" class="to filterTodos " />
+              <div class="delete">
+                <span class="x">&times</span>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="btn" id="btn">
+            <div class="plus">+</div>
+            <span class="add"> Əlavə et</span>
+          </button>   
+      </div>
+    </div>
+</form>
+<script src="js/to-do-list.js"></script>
+  </body>
+</html>
